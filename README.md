@@ -1,10 +1,5 @@
 # Multi-Tenant AI Infrastructure Labs (`multi-tenant-ai-infra-labs`)
 
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.30+-326ce5?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
-[![NVIDIA MIG](https://img.shields.io/badge/NVIDIA_MIG-A100%20%2F%20H100-76b900?logo=nvidia&logoColor=white)](https://www.nvidia.com/)
-[![FinOps](https://img.shields.io/badge/FinOps-Kubecost-green?logo=linuxfoundation&logoColor=white)](https://www.kubecost.com/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
 An enterprise-grade blueprint and hands-on laboratory for building, securing, and optimizing a **Multi-Tenant Kubernetes Platform** tailored for distributed AI/ML workloads. 
 
 This repository shifts the focus from deploying individual models to building the foundational **Internal AI Platform** that enables multiple data science teams (tenants) to share high-performance compute resources (GPUs) securely, fairly, and cost-effectively.
@@ -100,4 +95,3 @@ Deploying this architecture in a real production environment delivers immediate 
 * **Up to 40% Reduction in Cloud Spend**: Consolidating workloads into a single multi-tenant cluster removes idle overhead compared to provisioning separate GPU instances for every team.
 * **Strict Security Compliance**: Meets HIPAA, GDPR, and SOC2 isolation standards by separating dataset access at the namespace network boundary.
 * **Zero-Friction Developer Experience**: Data scientists can spin up training jobs instantly within their allocated "sandbox" namespace without needing Cloud IAM or Terraform privileges.
-```
