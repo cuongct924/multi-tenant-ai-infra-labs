@@ -1,4 +1,4 @@
-# Multi-Tenant AI Infrastructure Labs (`multi-tenant-ai-infra-labs`)
+# Multi-Tenant AI Infrastructure Labs
 
 An enterprise-grade blueprint and hands-on laboratory for building, securing, and optimizing a **Multi-Tenant Kubernetes Platform** tailored for distributed AI/ML workloads. 
 
@@ -16,14 +16,14 @@ In a mature enterprise, machine learning workloads should not run in siloed envi
                         +--------------------------+--------------------------+
                         | (Network Isolation / OPA Kyverno Policy Guardrails) |
                         v                                                     v
-          +---------------------------+                         +---------------------------+
-          |    Namespace: team-alpha  |                         |    Namespace: team-beta   |
-          |  (Computer Vision Team)   |                         |        (NLP/LLM Team)     |
-          +---------------------------+                         +---------------------------+
-          | - RBAC: Limited to Alpha  |                         | - RBAC: Limited to Beta   |
-          | - Quota: Max 200m Cores   |                         | - Quota: Max 400m Cores   |
-          | - GPU: MIG Instance 1g.10gb|                        | - GPU: MIG Instance 3g.40gb|
-          +---------------------------+                         +---------------------------+
+          +----------------------------+                         +----------------------------+
+          |    Namespace: team-alpha   |                         |    Namespace: team-beta    |
+          |  (Computer Vision Team)    |                         |        (NLP/LLM Team)      |
+          +----------------------------+                         +----------------------------+
+          | - RBAC: Limited to Alpha   |                         | - RBAC: Limited to Beta    |
+          | - Quota: Max 200m Cores    |                         | - Quota: Max 400m Cores    |
+          | - GPU: MIG Instance 1g.10gb|                         | - GPU: MIG Instance 3g.40gb|
+          +----------------------------+                         +----------------------------+
                         |                                                     |
                         +--------------------------+--------------------------+
                                                    v
